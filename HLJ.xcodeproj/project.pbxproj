@@ -15,6 +15,29 @@
 		7FF87B311EDE68D2005AA7AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF87B2F1EDE68D2005AA7AD /* LaunchScreen.storyboard */; };
 		7FF87B3C1EDE68D2005AA7AD /* HLJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B3B1EDE68D2005AA7AD /* HLJTests.m */; };
 		7FF87B471EDE68D2005AA7AD /* HLJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B461EDE68D2005AA7AD /* HLJUITests.m */; };
+		7FF87B6B1EDE6B4D005AA7AD /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B591EDE6B4D005AA7AD /* AFHTTPRequestOperation.m */; };
+		7FF87B6C1EDE6B4D005AA7AD /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B5B1EDE6B4D005AA7AD /* AFHTTPRequestOperationManager.m */; };
+		7FF87B6D1EDE6B4D005AA7AD /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B5D1EDE6B4D005AA7AD /* AFHTTPSessionManager.m */; };
+		7FF87B6E1EDE6B4D005AA7AD /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B601EDE6B4D005AA7AD /* AFNetworkReachabilityManager.m */; };
+		7FF87B6F1EDE6B4D005AA7AD /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B621EDE6B4D005AA7AD /* AFSecurityPolicy.m */; };
+		7FF87B701EDE6B4D005AA7AD /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B641EDE6B4D005AA7AD /* AFURLConnectionOperation.m */; };
+		7FF87B711EDE6B4D005AA7AD /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B661EDE6B4D005AA7AD /* AFURLRequestSerialization.m */; };
+		7FF87B721EDE6B4D005AA7AD /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B681EDE6B4D005AA7AD /* AFURLResponseSerialization.m */; };
+		7FF87B731EDE6B4D005AA7AD /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B6A1EDE6B4D005AA7AD /* AFURLSessionManager.m */; };
+		7FF87B761EDE6B6E005AA7AD /* HLJAPIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B751EDE6B6E005AA7AD /* HLJAPIProxy.m */; };
+		7FF87B7A1EDE71FF005AA7AD /* HLJRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B791EDE71FF005AA7AD /* HLJRequestGenerator.m */; };
+		7FF87B7E1EDE8F3A005AA7AD /* HLJService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B7D1EDE8F3A005AA7AD /* HLJService.m */; };
+		7FF87B821EDE905A005AA7AD /* NSString+HLJNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B811EDE905A005AA7AD /* NSString+HLJNetworking.m */; };
+		7FF87B851EDE90CB005AA7AD /* NSMutableDictionary+HLJNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B841EDE90CB005AA7AD /* NSMutableDictionary+HLJNetworking.m */; };
+		7FF87B881EDE9149005AA7AD /* NSURLRequest+HLJNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B871EDE9149005AA7AD /* NSURLRequest+HLJNetworking.m */; };
+		7FF87B8B1EDE91AA005AA7AD /* HLJServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B8A1EDE91AA005AA7AD /* HLJServiceFactory.m */; };
+		7FF87B8F1EDE92E7005AA7AD /* HLJNetworkingConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B8E1EDE92E7005AA7AD /* HLJNetworkingConfigurationManager.m */; };
+		7FF87B921EDE9463005AA7AD /* NSDictionary+HLJNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B911EDE9463005AA7AD /* NSDictionary+HLJNetworking.m */; };
+		7FF87B961EDE96F2005AA7AD /* HLJURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B951EDE96F2005AA7AD /* HLJURLResponse.m */; };
+		7FF87B991EDE97A2005AA7AD /* NSObject+HLJNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B981EDE97A2005AA7AD /* NSObject+HLJNetworking.m */; };
+		7FF87B9D1EDE99A4005AA7AD /* HLJBaseApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87B9C1EDE99A4005AA7AD /* HLJBaseApiManager.m */; };
+		7FF87BA21EDE9D57005AA7AD /* HLJNetworkingCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87BA11EDE9D57005AA7AD /* HLJNetworkingCacheManager.m */; };
+		7FF87BA51EDE9D6C005AA7AD /* HLJNetworkingCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF87BA41EDE9D6C005AA7AD /* HLJNetworkingCacheObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +74,54 @@
 		7FF87B421EDE68D2005AA7AD /* HLJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF87B461EDE68D2005AA7AD /* HLJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLJUITests.m; sourceTree = "<group>"; };
 		7FF87B481EDE68D2005AA7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF87B581EDE6B4D005AA7AD /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		7FF87B591EDE6B4D005AA7AD /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		7FF87B5A1EDE6B4D005AA7AD /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		7FF87B5B1EDE6B4D005AA7AD /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		7FF87B5C1EDE6B4D005AA7AD /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		7FF87B5D1EDE6B4D005AA7AD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		7FF87B5E1EDE6B4D005AA7AD /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		7FF87B5F1EDE6B4D005AA7AD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		7FF87B601EDE6B4D005AA7AD /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		7FF87B611EDE6B4D005AA7AD /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		7FF87B621EDE6B4D005AA7AD /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		7FF87B631EDE6B4D005AA7AD /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		7FF87B641EDE6B4D005AA7AD /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		7FF87B651EDE6B4D005AA7AD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7FF87B661EDE6B4D005AA7AD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7FF87B671EDE6B4D005AA7AD /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		7FF87B681EDE6B4D005AA7AD /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		7FF87B691EDE6B4D005AA7AD /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		7FF87B6A1EDE6B4D005AA7AD /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		7FF87B741EDE6B6E005AA7AD /* HLJAPIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLJAPIProxy.h; path = ../../HLJAPIProxy.h; sourceTree = "<group>"; };
+		7FF87B751EDE6B6E005AA7AD /* HLJAPIProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLJAPIProxy.m; path = ../../HLJAPIProxy.m; sourceTree = "<group>"; };
+		7FF87B781EDE71FF005AA7AD /* HLJRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJRequestGenerator.h; sourceTree = "<group>"; };
+		7FF87B791EDE71FF005AA7AD /* HLJRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJRequestGenerator.m; sourceTree = "<group>"; };
+		7FF87B7C1EDE8F3A005AA7AD /* HLJService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJService.h; sourceTree = "<group>"; };
+		7FF87B7D1EDE8F3A005AA7AD /* HLJService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJService.m; sourceTree = "<group>"; };
+		7FF87B801EDE905A005AA7AD /* NSString+HLJNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HLJNetworking.h"; sourceTree = "<group>"; };
+		7FF87B811EDE905A005AA7AD /* NSString+HLJNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HLJNetworking.m"; sourceTree = "<group>"; };
+		7FF87B831EDE90CB005AA7AD /* NSMutableDictionary+HLJNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+HLJNetworking.h"; sourceTree = "<group>"; };
+		7FF87B841EDE90CB005AA7AD /* NSMutableDictionary+HLJNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+HLJNetworking.m"; sourceTree = "<group>"; };
+		7FF87B861EDE9149005AA7AD /* NSURLRequest+HLJNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+HLJNetworking.h"; sourceTree = "<group>"; };
+		7FF87B871EDE9149005AA7AD /* NSURLRequest+HLJNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+HLJNetworking.m"; sourceTree = "<group>"; };
+		7FF87B891EDE91AA005AA7AD /* HLJServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJServiceFactory.h; sourceTree = "<group>"; };
+		7FF87B8A1EDE91AA005AA7AD /* HLJServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJServiceFactory.m; sourceTree = "<group>"; };
+		7FF87B8D1EDE92E7005AA7AD /* HLJNetworkingConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJNetworkingConfigurationManager.h; sourceTree = "<group>"; };
+		7FF87B8E1EDE92E7005AA7AD /* HLJNetworkingConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJNetworkingConfigurationManager.m; sourceTree = "<group>"; };
+		7FF87B901EDE9463005AA7AD /* NSDictionary+HLJNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HLJNetworking.h"; sourceTree = "<group>"; };
+		7FF87B911EDE9463005AA7AD /* NSDictionary+HLJNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HLJNetworking.m"; sourceTree = "<group>"; };
+		7FF87B941EDE96F2005AA7AD /* HLJURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJURLResponse.h; sourceTree = "<group>"; };
+		7FF87B951EDE96F2005AA7AD /* HLJURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJURLResponse.m; sourceTree = "<group>"; };
+		7FF87B971EDE97A2005AA7AD /* NSObject+HLJNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HLJNetworking.h"; sourceTree = "<group>"; };
+		7FF87B981EDE97A2005AA7AD /* NSObject+HLJNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HLJNetworking.m"; sourceTree = "<group>"; };
+		7FF87B9B1EDE99A4005AA7AD /* HLJBaseApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJBaseApiManager.h; sourceTree = "<group>"; };
+		7FF87B9C1EDE99A4005AA7AD /* HLJBaseApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJBaseApiManager.m; sourceTree = "<group>"; };
+		7FF87B9E1EDE9C79005AA7AD /* HLJNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLJNetworking.h; sourceTree = "<group>"; };
+		7FF87BA01EDE9D57005AA7AD /* HLJNetworkingCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJNetworkingCacheManager.h; sourceTree = "<group>"; };
+		7FF87BA11EDE9D57005AA7AD /* HLJNetworkingCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJNetworkingCacheManager.m; sourceTree = "<group>"; };
+		7FF87BA31EDE9D6C005AA7AD /* HLJNetworkingCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLJNetworkingCacheObject.h; sourceTree = "<group>"; };
+		7FF87BA41EDE9D6C005AA7AD /* HLJNetworkingCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLJNetworkingCacheObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +172,8 @@
 		7FF87B201EDE68D2005AA7AD /* HLJ */ = {
 			isa = PBXGroup;
 			children = (
+				7FF87B561EDE6B3A005AA7AD /* Third */,
+				7FF87B541EDE6AF9005AA7AD /* HLJNetworking */,
 				7FF87B241EDE68D2005AA7AD /* AppDelegate.h */,
 				7FF87B251EDE68D2005AA7AD /* AppDelegate.m */,
 				7FF87B271EDE68D2005AA7AD /* ViewController.h */,
@@ -138,6 +211,140 @@
 				7FF87B481EDE68D2005AA7AD /* Info.plist */,
 			);
 			path = HLJUITests;
+			sourceTree = "<group>";
+		};
+		7FF87B541EDE6AF9005AA7AD /* HLJNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B9F1EDE9CF5005AA7AD /* Cache */,
+				7FF87B9A1EDE9987005AA7AD /* BaseApiManager */,
+				7FF87B931EDE963D005AA7AD /* Response */,
+				7FF87B8C1EDE92B0005AA7AD /* Configuration */,
+				7FF87B7F1EDE9025005AA7AD /* Categories */,
+				7FF87B7B1EDE8F24005AA7AD /* Service */,
+				7FF87B771EDE71D7005AA7AD /* RequestGenerator */,
+				7FF87B551EDE6B04005AA7AD /* ApiProxy */,
+				7FF87B9E1EDE9C79005AA7AD /* HLJNetworking.h */,
+			);
+			name = HLJNetworking;
+			sourceTree = "<group>";
+		};
+		7FF87B551EDE6B04005AA7AD /* ApiProxy */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B741EDE6B6E005AA7AD /* HLJAPIProxy.h */,
+				7FF87B751EDE6B6E005AA7AD /* HLJAPIProxy.m */,
+			);
+			name = ApiProxy;
+			sourceTree = "<group>";
+		};
+		7FF87B561EDE6B3A005AA7AD /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B571EDE6B4D005AA7AD /* AFNetworking */,
+			);
+			name = Third;
+			sourceTree = "<group>";
+		};
+		7FF87B571EDE6B4D005AA7AD /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B581EDE6B4D005AA7AD /* AFHTTPRequestOperation.h */,
+				7FF87B591EDE6B4D005AA7AD /* AFHTTPRequestOperation.m */,
+				7FF87B5A1EDE6B4D005AA7AD /* AFHTTPRequestOperationManager.h */,
+				7FF87B5B1EDE6B4D005AA7AD /* AFHTTPRequestOperationManager.m */,
+				7FF87B5C1EDE6B4D005AA7AD /* AFHTTPSessionManager.h */,
+				7FF87B5D1EDE6B4D005AA7AD /* AFHTTPSessionManager.m */,
+				7FF87B5E1EDE6B4D005AA7AD /* AFNetworking.h */,
+				7FF87B5F1EDE6B4D005AA7AD /* AFNetworkReachabilityManager.h */,
+				7FF87B601EDE6B4D005AA7AD /* AFNetworkReachabilityManager.m */,
+				7FF87B611EDE6B4D005AA7AD /* AFSecurityPolicy.h */,
+				7FF87B621EDE6B4D005AA7AD /* AFSecurityPolicy.m */,
+				7FF87B631EDE6B4D005AA7AD /* AFURLConnectionOperation.h */,
+				7FF87B641EDE6B4D005AA7AD /* AFURLConnectionOperation.m */,
+				7FF87B651EDE6B4D005AA7AD /* AFURLRequestSerialization.h */,
+				7FF87B661EDE6B4D005AA7AD /* AFURLRequestSerialization.m */,
+				7FF87B671EDE6B4D005AA7AD /* AFURLResponseSerialization.h */,
+				7FF87B681EDE6B4D005AA7AD /* AFURLResponseSerialization.m */,
+				7FF87B691EDE6B4D005AA7AD /* AFURLSessionManager.h */,
+				7FF87B6A1EDE6B4D005AA7AD /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		7FF87B771EDE71D7005AA7AD /* RequestGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B781EDE71FF005AA7AD /* HLJRequestGenerator.h */,
+				7FF87B791EDE71FF005AA7AD /* HLJRequestGenerator.m */,
+			);
+			name = RequestGenerator;
+			sourceTree = "<group>";
+		};
+		7FF87B7B1EDE8F24005AA7AD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B7C1EDE8F3A005AA7AD /* HLJService.h */,
+				7FF87B7D1EDE8F3A005AA7AD /* HLJService.m */,
+				7FF87B891EDE91AA005AA7AD /* HLJServiceFactory.h */,
+				7FF87B8A1EDE91AA005AA7AD /* HLJServiceFactory.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		7FF87B7F1EDE9025005AA7AD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B801EDE905A005AA7AD /* NSString+HLJNetworking.h */,
+				7FF87B811EDE905A005AA7AD /* NSString+HLJNetworking.m */,
+				7FF87B831EDE90CB005AA7AD /* NSMutableDictionary+HLJNetworking.h */,
+				7FF87B841EDE90CB005AA7AD /* NSMutableDictionary+HLJNetworking.m */,
+				7FF87B861EDE9149005AA7AD /* NSURLRequest+HLJNetworking.h */,
+				7FF87B871EDE9149005AA7AD /* NSURLRequest+HLJNetworking.m */,
+				7FF87B901EDE9463005AA7AD /* NSDictionary+HLJNetworking.h */,
+				7FF87B911EDE9463005AA7AD /* NSDictionary+HLJNetworking.m */,
+				7FF87B971EDE97A2005AA7AD /* NSObject+HLJNetworking.h */,
+				7FF87B981EDE97A2005AA7AD /* NSObject+HLJNetworking.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		7FF87B8C1EDE92B0005AA7AD /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B8D1EDE92E7005AA7AD /* HLJNetworkingConfigurationManager.h */,
+				7FF87B8E1EDE92E7005AA7AD /* HLJNetworkingConfigurationManager.m */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		7FF87B931EDE963D005AA7AD /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B941EDE96F2005AA7AD /* HLJURLResponse.h */,
+				7FF87B951EDE96F2005AA7AD /* HLJURLResponse.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		7FF87B9A1EDE9987005AA7AD /* BaseApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87B9B1EDE99A4005AA7AD /* HLJBaseApiManager.h */,
+				7FF87B9C1EDE99A4005AA7AD /* HLJBaseApiManager.m */,
+			);
+			name = BaseApiManager;
+			sourceTree = "<group>";
+		};
+		7FF87B9F1EDE9CF5005AA7AD /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				7FF87BA01EDE9D57005AA7AD /* HLJNetworkingCacheManager.h */,
+				7FF87BA11EDE9D57005AA7AD /* HLJNetworkingCacheManager.m */,
+				7FF87BA31EDE9D6C005AA7AD /* HLJNetworkingCacheObject.h */,
+				7FF87BA41EDE9D6C005AA7AD /* HLJNetworkingCacheObject.m */,
+			);
+			name = Cache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +483,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF87B6B1EDE6B4D005AA7AD /* AFHTTPRequestOperation.m in Sources */,
+				7FF87B8B1EDE91AA005AA7AD /* HLJServiceFactory.m in Sources */,
+				7FF87B881EDE9149005AA7AD /* NSURLRequest+HLJNetworking.m in Sources */,
 				7FF87B291EDE68D2005AA7AD /* ViewController.m in Sources */,
+				7FF87B9D1EDE99A4005AA7AD /* HLJBaseApiManager.m in Sources */,
+				7FF87B6C1EDE6B4D005AA7AD /* AFHTTPRequestOperationManager.m in Sources */,
+				7FF87B8F1EDE92E7005AA7AD /* HLJNetworkingConfigurationManager.m in Sources */,
+				7FF87B6E1EDE6B4D005AA7AD /* AFNetworkReachabilityManager.m in Sources */,
+				7FF87B721EDE6B4D005AA7AD /* AFURLResponseSerialization.m in Sources */,
+				7FF87B7E1EDE8F3A005AA7AD /* HLJService.m in Sources */,
+				7FF87B921EDE9463005AA7AD /* NSDictionary+HLJNetworking.m in Sources */,
+				7FF87B851EDE90CB005AA7AD /* NSMutableDictionary+HLJNetworking.m in Sources */,
+				7FF87B701EDE6B4D005AA7AD /* AFURLConnectionOperation.m in Sources */,
+				7FF87B6F1EDE6B4D005AA7AD /* AFSecurityPolicy.m in Sources */,
+				7FF87B6D1EDE6B4D005AA7AD /* AFHTTPSessionManager.m in Sources */,
+				7FF87B761EDE6B6E005AA7AD /* HLJAPIProxy.m in Sources */,
+				7FF87B991EDE97A2005AA7AD /* NSObject+HLJNetworking.m in Sources */,
+				7FF87BA21EDE9D57005AA7AD /* HLJNetworkingCacheManager.m in Sources */,
+				7FF87B711EDE6B4D005AA7AD /* AFURLRequestSerialization.m in Sources */,
+				7FF87B7A1EDE71FF005AA7AD /* HLJRequestGenerator.m in Sources */,
+				7FF87B821EDE905A005AA7AD /* NSString+HLJNetworking.m in Sources */,
+				7FF87B731EDE6B4D005AA7AD /* AFURLSessionManager.m in Sources */,
+				7FF87BA51EDE9D6C005AA7AD /* HLJNetworkingCacheObject.m in Sources */,
+				7FF87B961EDE96F2005AA7AD /* HLJURLResponse.m in Sources */,
 				7FF87B261EDE68D2005AA7AD /* AppDelegate.m in Sources */,
 				7FF87B231EDE68D2005AA7AD /* main.m in Sources */,
 			);
@@ -514,6 +744,7 @@
 				7FF87B4D1EDE68D2005AA7AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FF87B4E1EDE68D2005AA7AD /* Build configuration list for PBXNativeTarget "HLJTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +753,7 @@
 				7FF87B501EDE68D2005AA7AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FF87B511EDE68D2005AA7AD /* Build configuration list for PBXNativeTarget "HLJUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +762,7 @@
 				7FF87B531EDE68D2005AA7AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
